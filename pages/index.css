@@ -10,15 +10,69 @@
 
 .header {
   background-color: #ffffff;
-  background-image: url(images/background_header.svg);
+  background-image: url(/images/background_header.svg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
-.logo {
-  position: relative;
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
 }
-.header-image {
+.header__image {
   position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+.logo {
+  position: re;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 105px;
+  height: 39px;
+}
+.nav__link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 30px;
+  margin-right: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.nav__link-item {
+  text-decoration: none;
+  color: #000000;
+}
+.header__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  letter-spacing: -1px;
+  max-width: 709px;
+  margin-left: 80px;
+  margin-bottom: 28px;
+}
+.header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
 }
