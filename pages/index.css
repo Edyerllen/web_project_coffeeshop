@@ -114,3 +114,25 @@
   line-height: 20px;
   color: #838383;
 }
+
+.recipes {
+  background-image: url(/images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #0a2750;
+}
+
+.recipes__title {
+}
+
+.recipes__subtitle {
+}
+.recipes__video {
+}
+.recipes__video-item {
+}
+.recipes__iframe {
+}
+.recipes__video-description {
+}
