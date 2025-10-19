@@ -93,7 +93,7 @@
   margin-bottom: 40px;
 }
 
-.header__footer-header__paragraph {
+.header__footer-paragraphs {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -109,7 +109,7 @@
   color: #838383;
 }
 
-.header__footer-header__paragraph-item {
+.header__footer-paragraph {
   margin-top: auto;
   margin-right: 80px;
   margin-bottom: 40px;
