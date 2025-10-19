@@ -93,7 +93,7 @@
   margin-bottom: 40px;
 }
 
-.header__footer-item {
+.header__footer-header__paragraph {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
