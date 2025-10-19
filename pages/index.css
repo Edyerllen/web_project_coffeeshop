@@ -97,6 +97,7 @@
 .header__footer-item {
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
   align-items: baseline;
   margin-left: 80px;
   margin-bottom: 40px;
