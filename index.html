@@ -1,167 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cafeteria</title>
 
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafeteria</title>
 
-    <meta
-      name="description"
-      content="Cafeteria aconchegante com os melhores grãos de café. Venha experimentar nossas deliciosas receitas e fazer sua reserva!"
-    />
-    <meta name="author" content="Edyerllen Souza" />
-    <meta
-      name="keywords"
-      content="Cafeteria, café, grãos de café, receitas de café, reserva de mesa, ambiente aconchegante"
-    />
+  <link rel="stylesheet" href="./vendor/normalize.css" />
+  <link rel="stylesheet" href="./pages/index.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Serif:ital,wght@0,400;1,400&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <meta name="description"
+    content="Cafeteria aconchegante com os melhores grãos de café. Venha experimentar nossas deliciosas receitas e fazer sua reserva!" />
+  <meta name="author" content="Edyerllen Souza" />
+  <meta name="keywords"
+    content="Cafeteria, café, grãos de café, receitas de café, reserva de mesa, ambiente aconchegante" />
 
-  <body>
-    <div class="page">
-      <header class="header">
-        <nav class="nav">
-          <div class="nav__logo">
-            <img
-              src="images/logo_coffeeshop_dark.svg"
-              alt="Logo da Cafeteria"
-            />
-          </div>
-          <ul class="nav__links">
-            <li><a href="#recipes" class="nav__link">Receitas</a></li>
-            <li><a href="#reservation" class="nav__link">Reservas</a></li>
-            <li><a href="#contact" class="nav__link">Contato</a></li>
-          </ul>
-        </nav>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Serif:ital,wght@0,400;1,400&display=swap"
+    rel="stylesheet" />
+</head>
 
-        <h1 class="header__title">
-          <span class="header__span-accent"> Café especial </span>
-          na biblioteca Triple Peaks
-        </h1>
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="nav">
+        <div class="nav__logo">
+          <img src="images/logo_coffeeshop_dark.svg" alt="Logo da Cafeteria" />
+        </div>
+        <ul class="nav__links">
+          <li><a href="#recipes" class="nav__link">Receitas</a></li>
+          <li><a href="#reservation" class="nav__link">Reservas</a></li>
+          <li><a href="#contact" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
 
-        <p class="header__description">
-          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
-          você e vibrações aconchegantes para soltar a criatividade.
+      <h1 class="header__title">
+        <span class="header__span-accent"> Café especial </span>
+        na biblioteca Triple Peaks
+      </h1>
+
+      <p class="header__description">
+        Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+        você e vibrações aconchegantes para soltar a criatividade.
+      </p>
+
+      <img class="header__image" src="images/inside_coffee_shop.png" alt="Interior da cafeteria" />
+      <footer class="header__footer">
+        <div class="header__footer-hours">
+          <p class="header__paragraph">Horários:</p>
+          <p class="header__paragraph">Segunda a sexta (10:00 - 19:00)</p>
+          <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+        </div>
+        <p class="header__paragraph">
+          200 Success Avenue, a cidade de Triple Peaks
+        </p>
+      </footer>
+    </header>
+    <main class="content">
+      <section id="recipes" class="recipes">
+        <h2 class="recipes__title">Receitas</h2>
+        <p class="recipes__subtitle">
+          Confira algumas receitas que coletamos para seu lanchinho caseiro:
         </p>
 
-        <img
-          class="header__image"
-          src="images/inside_coffee_shop.png"
-          alt="Interior da cafeteria"
-        />
-        <footer class="header__footer">
-          <div class="header__footer-hours">
-            <p class="header__paragraph">Horários:</p>
-            <p class="header__paragraph">Segunda a sexta (10:00 - 19:00)</p>
-            <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+        <div class="recipes__videos">
+          <div class="recipes__videos-item">
+            <iframe class="recipes__iframe" src="https://www.youtube.com/embed/IkssYHTSpH4"
+              title="Qual é o sabor de uma boa xícara de café"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <p class="recipes__videos-caption">
+              Qual é o sabor de uma boa xícara de café ~7.03 min
+            </p>
           </div>
-          <p class="header__paragraph">
-            200 Success Avenue, a cidade de Triple Peaks
-          </p>
-        </footer>
-      </header>
-      <main class="content">
-        <section id="recipes" class="recipes">
-          <h2 class="recipes__title">Receitas</h2>
-          <p class="recipes__subtitle">
-            Confira algumas receitas que coletamos para seu lanchinho caseiro:
-          </p>
 
-          <div class="recipes__videos">
-            <div class="recipes__videos-item">
-              <iframe
-                class="recipes__iframe"
-                src="https://www.youtube.com/embed/IkssYHTSpH4"
-                title="Qual é o sabor de uma boa xícara de café"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <p class="recipes__videos-caption">
-                Qual é o sabor de uma boa xícara de café ~7.03 min
-              </p>
-            </div>
+          <div class="recipes__videos-item">
+            <iframe class="recipes__iframe" src="https://www.youtube.com/embed/O9YnLFrM7Fs"
+              title="Guia de iniciante para comprar um bom café"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <p class="recipes__videos-caption">
+              Guia de iniciante para comprar um bom café ~26 min
+            </p>
+            <label for="email" class="form__label">Seu e-mail: *</label>
+            <input id="email" type="email" placeholder="email@email.com" class="form__input" />
+      </section>
+      <section id="reservation" class="reservation">
+        <h2 class="reservation__title">Reservar uma mesa</h2>
 
-            <div class="recipes__videos-item">
-              <iframe
-                class="recipes__iframe"
-                src="https://www.youtube.com/embed/O9YnLFrM7Fs"
-                title="Guia de iniciante para comprar um bom café"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <p class="recipes__videos-caption">
-                Guia de iniciante para comprar um bom café ~26 min
-              </p>
-            </div>
-          </div>
-        </section>
-        <section id="reservation" class="reservation">
-          <h2 class="reservation__title">Reservar uma mesa</h2>
+        <form class="reservation__form">
+          <fieldset class="reservation__fieldset">
+            <label for="nome" class="reservation__label">Nome: *</label>
+            <input id="nome" type="text" placeholder="Nome" class="reservation__input" required />
 
-          <form class="form">
-            <fieldset class="form__fieldset">
-              <label for="Nome" class="form__label">Nome: *</label>
-              <input
-                id="Nome"
-                type="text"
-                placeholder="Nome"
-                class="form__input"
-              />
+            <label for="NumeroConvidados" class="reservation__label">Número de convidados: *</label>
+            <input id="NumeroConvidados" type="number" min="1" max="8" placeholder="1-8" class="reservation__input"
+              required />
 
-              <label for="NumeroConvidados" class="form__label"
-                >Número de convidados: *</label
-              >
-              <input
-                id="NumeroConvidados"
-                type="number"
-                min="1"
-                max="8"
-                placeholder="1-8"
-                class="form__input"
-              />
+            <label for="datahora" class="reservation__label">Data e hora: *</label>
+            <input id="datahora" type="datetime-local" class="reservation__input" required />
 
-              <label for="datetime-local" class="form__label"
-                >Data e hora: *</label
-              >
-              <input
-                id="datetime-local"
-                type="datetime-local"
-                class="form__input"
-              />
+            <label for="Email" class="reservation__label">Seu e-mail: *</label>
+            <input id="Email" type="email" placeholder="email@email.com" class="reservation__input" required />
 
-              <label for="Email" class="form__label">Seu e-mail: *</label>
-              <input
-                id="Email"
-                type="email"
-                placeholder="email@email.com"
-                class="form__input"
-              />
-            </div>
+            <button type="submit" class="reservation__submit">Reservar uma mesa</button>
+          </fieldset>
 
-            <button type="submit" class="form__button">
-              Reservar uma mesa
-            </button>
-            <div class="form__label-agree">
-              <input type="checkbox" id="terms" class="form__checkbox" />
-              <label for="terms" class="form__label"
-                >Eu concordo com os termos de uso</label
-              >
-            </div>
-            </fieldset>
-          </form>
-        </section>
-      </main>
-      <footer class="footer"></footer>
-    </div>
-  </body>
+          <fieldset class="reservation__fieldset reservation__fieldset--checkbox">
+            <input type="checkbox" id="terms" class="reservation__checkbox" required />
+            <label for="terms" class="reservation__label reservation__label--checkbox">
+              Eu concordo com os termos de uso
+            </label>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </div>
+</body>
+
 </html>
