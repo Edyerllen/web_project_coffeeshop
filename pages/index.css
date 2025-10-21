@@ -174,9 +174,9 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: auto;
   margin-top: 100px;
   margin-bottom: 80px;
-  width: 100%;
 }
 .form {
   max-width: 385px;
