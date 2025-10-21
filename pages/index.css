@@ -238,12 +238,11 @@
   background-image: url(/images/check.svg);
   width: 20px;
   height: 20px;
-  margin-top: 32px;
 }
 
 .form__checkbox-label {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 32px;
   gap: 12px;
