@@ -174,7 +174,7 @@
   font-size: 44px;
   line-height: 52px;
   text-align: center;
-  padding-top: 100px;
+  margin-top: 100px;
 }
 .form {
   max-width: 385px;
@@ -228,11 +228,12 @@
 }
 .reservation__input::placeholder {
   color: #838383;
-  padding-top: 15px;
-  padding-left: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
 .form__checkbox {
+  margin-top: 32px;
   border-radius: 2px;
   background-color: #2f80ed;
   background-image: url(/images/check.svg);
@@ -240,11 +241,10 @@
   height: 20px;
 }
 
-.reservation__fieldset--checkbox {
+.form__label {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: 0;
   margin-top: 32px;
   gap: 12px;
 }
