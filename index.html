@@ -97,16 +97,17 @@
           <fieldset class="form__fieldset">
 
             <label for="nome" class="reservation__label">Nome: *</label>
-            <input id="nome" type="text" placeholder="Nome" class="reservation__input" />
+            <input id="nome" type="text" placeholder="Nome" class="reservation__input" required />
 
             <label for="NumeroConvidados" class="reservation__label">Número de convidados: *</label>
-            <input id="NumeroConvidados" type="number" min="1" max="8" placeholder="1-8" class="reservation__input" />
+            <input id="NumeroConvidados" type="number" min="1" max="8" placeholder="1-8" class="reservation__input"
+              required />
 
             <label for="datahora" class="reservation__label">Data e hora: *</label>
             <input id="datahora" type="datetime-local" class="reservation__input" />
 
             <label for="Email" class="reservation__label">Seu e-mail: *</label>
-            <input id="Email" type="email" placeholder="email@email.com" class="reservation__input" />
+            <input id="Email" type="email" placeholder="email@email.com" class="reservation__input" required />
 
             <button type="submit" class="reservation__button">
               Reservar uma mesa
